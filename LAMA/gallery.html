@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- awal navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary">
+    <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+        <img src="img/logo.png" alt="Logo" width="50" class="d-inline-block align-text-top">
+    </a>
+    <h3 class="text-danger">SMK YP 17 BLITAR</h3>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav nav-tabs ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="index.html">Beranda</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Profil
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Sejarah</a></li>
+              <li><a class="dropdown-item" href="#">Visi & Misi</a></li>
+              <li><a class="dropdown-item" href="#">Profil Tenaga Pendidik</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Konsentrasi Keahlian
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Teknik Kendaraan Ringan</a></li>
+              <li><a class="dropdown-item" href="#">Teknik Sepeda Motor</a></li>
+              <li><a class="dropdown-item" href="#">Teknik Komputer Jaringan</a></li>
+              <li><a class="dropdown-item" href="#">Teknik Elektronika Industri</a></li>
+              <li><a class="dropdown-item" href="#">Desain Komunikasi Visual</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Fasilitas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kegiatan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="gallery.html">Gallery</a>
+          </li>
+          <li>
+            <a href="https://bit.ly/FormulirPPDBSMK17BLITAR" target="_blank"><button type="button" class="btn btn-warning"><b>PPDB 2024</b></a></button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+<!-- akhir navbar -->
+<div class="container">
+  <h1 class="text-center mt-5">Gallery</h1>
+  
+  <div class="row mt-4">
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#galleryModal">
+        <img class="img-fluid img-thumbnail" src="img/kegiatan1.jpeg" alt="Gambar 1">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#galleryModal">
+        <img class="img-fluid img-thumbnail" src="img/kegiatan2.jpeg" alt="Gambar 2">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#galleryModal">
+        <img class="img-fluid img-thumbnail" src="img/kegiatan3.jpg" alt="Gambar 3">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#galleryModal">
+        <img class="img-fluid img-thumbnail" src="img/kegiatan4.jpeg" alt="Gambar 1">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#galleryModal">
+        <img class="img-fluid img-thumbnail" src="img/kegiatan5.jpeg" alt="Gambar 2">
+      </a>
+    </div>
+    <div class="col-lg-3 col-md-4 col-6">
+      <a href="#" class="d-block mb-4 h-100" data-bs-toggle="modal" data-bs-target="#galleryModal">
+        <img class="img-fluid img-thumbnail" src="img/kegiatan6.jpeg" alt="Gambar 3">
+      </a>
+    </div>
+    <!-- Tambahkan lebih banyak thumbnail sesuai kebutuhan -->
+  </div>
+</div>
+
+<!-- Modal untuk tampilan gambar besar -->
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="galleryModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="galleryModalLabel">Detail Gambar</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalImage" class="img-fluid" src="" alt="Gambar Besar">
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+  // JavaScript untuk menampilkan gambar besar di modal
+  var modalImage = document.getElementById('modalImage');
+  var thumbnails = document.querySelectorAll('.img-thumbnail');
+
+  thumbnails.forEach(function(thumbnail) {
+    thumbnail.addEventListener('click', function() {
+      var imgSrc = this.getAttribute('src');
+      modalImage.setAttribute('src', imgSrc);
+    });
+  });
+</script>
+
+</body>
+</html>

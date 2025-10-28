@@ -1,0 +1,462 @@
+[04-Oct-2024 07:17:34 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:17:34 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:17:34 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:17:34 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:17:34 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:17:34 UTC] PHP Warning:  include(): Failed opening 'navbar.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:17:55 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:17:55 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:17:55 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:17:55 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:17:55 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:17:55 UTC] PHP Warning:  include(): Failed opening 'navbar.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:18:00 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:18:00 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:18:00 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:18:00 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:18:00 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:18:00 UTC] PHP Warning:  include(): Failed opening 'navbar.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:18:03 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:18:03 UTC] PHP Warning:  include(header.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:18:03 UTC] PHP Warning:  include(): Failed opening 'header.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 1
+[04-Oct-2024 07:18:03 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:18:03 UTC] PHP Warning:  include(navbar.html): failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[04-Oct-2024 07:18:03 UTC] PHP Warning:  include(): Failed opening 'navbar.html' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php on line 2
+[11-Nov-2024 01:28:05 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[11-Nov-2024 01:28:21 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[11-Nov-2024 01:28:21 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 49
+[11-Nov-2024 01:28:21 UTC] PHP Warning:  mysqli_affected_rows() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 50
+[11-Nov-2024 01:28:32 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[11-Nov-2024 01:28:32 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[11-Nov-2024 01:28:32 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[12-Jun-2025 12:06:15 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: Too many connections in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:3
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(3): mysqli_connect()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(3): include('/home/alfr7592/...')
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[29-Jun-2025 22:38:18 Asia/Jakarta] PHP Warning:  require_once(/home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/libs/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php on line 2
+[29-Jun-2025 22:38:18 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/libs/mpdf/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php on line 2
+[29-Jun-2025 22:38:40 Asia/Jakarta] PHP Warning:  require_once(/home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/libs/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php on line 2
+[29-Jun-2025 22:38:40 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/libs/mpdf/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php on line 2
+[29-Jun-2025 22:43:36 Asia/Jakarta] PHP Warning:  require_once(/home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/libs/mpdf/autoload.php): Failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php on line 2
+[29-Jun-2025 22:43:36 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required '/home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/libs/mpdf/autoload.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_pdf.php on line 2
+[29-Jun-2025 22:51:05 Asia/Jakarta] PHP Warning:  require_once(tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_semua.php on line 6
+[29-Jun-2025 22:51:05 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_semua.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_semua.php on line 6
+[29-Jun-2025 22:51:08 Asia/Jakarta] PHP Warning:  require_once(tcpdf/tcpdf.php): Failed to open stream: No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_semua.php on line 6
+[29-Jun-2025 22:51:08 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Failed opening required 'tcpdf/tcpdf.php' (include_path='.:/opt/alt/php82/usr/share/pear:/opt/alt/php82/usr/share/php:/usr/share/pear:/usr/share/php') in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_semua.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_semua.php on line 6
+[30-Jun-2025 14:03:31 Asia/Jakarta] PHP Parse error:  syntax error, unexpected single-quoted string ");" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_single.php on line 121
+[30-Jun-2025 14:03:36 Asia/Jakarta] PHP Parse error:  syntax error, unexpected single-quoted string ");" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/cetak_single.php on line 121
+[03-Jul-2025 19:15:44 Asia/Jakarta] PHP Warning:  Undefined array key "penerima_bantuan" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 30
+[03-Jul-2025 19:25:01 Asia/Jakarta] PHP Warning:  Undefined array key "penerima_bantuan" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 30
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Undefined array key 0 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 7
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 30
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 33
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 37
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 41
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 45
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 49
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 53
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 57
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 61
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 65
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 69
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 73
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 77
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 81
+[04-Jul-2025 07:53:55 Asia/Jakarta] PHP Warning:  Trying to access array offset on value of type null in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php on line 85
+[04-Jul-2025 15:06:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:06:56'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:09:05 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:09:05'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:11:09 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:11:09'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:15:16 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:15:16'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:15:27 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:15:27'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:23:36 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:23:36'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:24:01 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:24:01'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:41:37 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:41:37'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:44:06 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:44:06'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:46:39 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:46:39'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:53:51 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:53:51'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:54:17 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 15:54:17'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:57:48 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:57:48'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:58:34 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:58:34'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:58:38 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:58:38'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:58:58 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:58:58'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 15:59:01 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'mah',
+        '2025-07-04 15:59:01'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[04-Jul-2025 16:04:38 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'MAH',
+        '2025-07-04 16:04:38'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[05-Jul-2025 15:31:49 Asia/Jakarta] PHP Warning:  Undefined array key "penerima_bantuan" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 30
+[05-Jul-2025 20:27:09 Asia/Jakarta] PHP Warning:  Undefined array key "penerima_bantuan" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 30
+[06-Jul-2025 12:22:42 Asia/Jakarta] PHP Warning:  Undefined array key "penerima_bantuan" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 30
+[07-Jul-2025 11:38:46 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 11:38:46'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 11:39:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 11:39:56'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 11:43:43 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 11:43:43'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 11:51:15 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 11:51:15'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:00:56 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:00:56'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:01:13 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:01:13'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:03:15 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:03:15'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:05:21 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:05:21'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:06:31 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:06:31'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:14:12 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:14:12'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:14:16 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:14:16'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:14:30 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:14:30'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:14:33 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:14:33'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:14:42 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:14:42'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[07-Jul-2025 12:14:45 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '',
+        '2025-07-07 12:14:45'
+    )' at line 15 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 13:32:44 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ruf',
+        'chorus nikmah',
+        '2025-07-09 13:32:44'
+    )' at line 14 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 13:32:44 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ruf',
+        'chorus nikmah',
+        '2025-07-09 13:32:44'
+    )' at line 14 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 13:35:16 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ruf',
+        'choirul nikmah',
+        '2025-07-09 13:35:16'
+    )' at line 14 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 13:35:16 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'ruf',
+        'choirul nikmah',
+        '2025-07-09 13:35:16'
+    )' at line 14 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 14:00:41 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'an DS. Plosorejo',
+        '085775420760',
+        'kelvinfarell735@gmail.c...' at line 8 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 14:00:57 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'an rt03/rw09 Kab. Blitar',
+        '085646696032',
+        'tuluswong331@gm...' at line 8 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 14:01:13 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'an DS. Plosorejo',
+        '085775420760',
+        'kelvinfarell735@gmail.c...' at line 8 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 14:01:17 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'an rt03/rw09 Kab. Blitar',
+        '085646696032',
+        'tuluswong331@gm...' at line 8 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:73
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(73): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/index.php(8): tambah()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 73
+[09-Jul-2025 14:38:15 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AN, RT03, RW 09, blitar',
+        '085775420760',
+        'kelvinfarell735@...' at line 8 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:115
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(115): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php(14): verifikasi()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 115
+[09-Jul-2025 14:38:19 Asia/Jakarta] PHP Fatal error:  Uncaught mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'AN, RT03, RW 09, blitar',
+        '085775420760',
+        'kelvinfarell735@...' at line 8 in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php:115
+Stack trace:
+#0 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php(115): mysqli_query()
+#1 /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/verifikasi.php(14): verifikasi()
+#2 {main}
+  thrown in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 115
+[11-Jul-2025 23:42:01 Asia/Jakarta] PHP Warning:  Undefined array key "penerima_bantuan" in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 30
+[04-Oct-2025 00:04:55 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): Resource temporarily unavailable in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:07:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:07:51 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:07:51 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:07:51 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:07:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:07:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:07:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:07:57 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:07:57 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:07:57 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:07:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:07:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:07:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:08:03 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:08:03 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:08:03 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:08:45 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:08:54 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:08:54 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:08:54 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:08:55 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:08:55 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:08:55 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[09-Oct-2025 08:08:59 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'alfr7592_eko'@'localhost' (using password: YES) in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3
+[09-Oct-2025 08:08:59 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, bool given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 9
+[09-Oct-2025 08:08:59 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 11
+[11-Oct-2025 13:41:26 UTC] PHP Warning:  mysqli_connect(): (HY000/2002): No such file or directory in /home/alfr7592/public_html/smkyp17blitar.sch.id/ppdb/functions.php on line 3

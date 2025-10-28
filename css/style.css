@@ -1,0 +1,58 @@
+.gallery-item {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+    /* border: 1px solid red; */
+    max-width: 400px;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.kotak1 {
+    background-color: #04575f;
+    width: 100px;
+    height: 100px;
+}
+.kotak2 {
+    background-color: #d9e5d9;
+    width: 100px;
+    height: 100px;
+}
+.kotak3 {
+    background-color: #fcc6ae;
+    width: 100px;
+    height: 100px;
+}
+.kotak4 {
+    background-color: #ee9472;
+    width: 100px;
+    height: 100px;
+}
+.kotak5 {
+    background-color: #202538;
+    width: 100px;
+    height: 100px;
+}
+
+.bg-navbar {
+    background-color: #04575f;
+}
+
+#about, .accordion-item, .accordion-button {
+    background-color: #d9e5d9;
+}
+
+.btn-utama {
+    background-color: #04575f;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #04575f;
+}
