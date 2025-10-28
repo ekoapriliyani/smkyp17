@@ -8,10 +8,10 @@ include "navbar.html";
     <div class="ratio ratio-16x9" style="border-radius: 10px; overflow: hidden;">
         <?php
         // ID video YouTube
-        $video_id = "dQw4w9WgXcQ"; // ganti dengan ID video sekolah kamu
+        $video_id = "pEl1xlpKcgQ"; // ganti dengan ID video sekolah kamu
 
         // URL embed autoplay + mute
-        $embed_url = "https://www.youtube.com/embed/$video_id?autoplay=1&mute=1&rel=0";
+        $embed_url = "https://www.youtube.com/embed/$video_id?autoplay=1&rel=0";
         ?>
         <iframe src="<?= $embed_url; ?>" allow="autoplay; encrypted-media" allowfullscreen></iframe>
     </div>
