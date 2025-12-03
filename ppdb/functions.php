@@ -1,6 +1,6 @@
 <?php
 // koneksi ke database
-$conn = mysqli_connect("localhost", "root", "", "dbsmkyp17");
+$conn = mysqli_connect("localhost", "root", "Eko123$", "dbsmkyp17");
 
 // fungsi tampil data
 function query($query)
