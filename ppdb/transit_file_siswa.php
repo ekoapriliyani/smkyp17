@@ -61,6 +61,8 @@ exit();
 // JIKA SUDAH LOGIN, LANJUTKAN KE KONTEN ADMIN
 // ----------------------------------------------------
 
+// Pastikan $conn tersedia untuk query statistik (sesuai perbaikan sebelumnya)
+// include "../koneksi.php"; // Harusnya ada di sini jika Anda menggunakan query statistik
 
 // Lanjutkan dengan kode admin Anda
 $siswa = query("SELECT * FROM tbl_siswa");
@@ -160,13 +162,13 @@ $siswa = query("SELECT * FROM tbl_siswa");
 
     <div class="sidebar d-flex flex-column">
         <div class="sidebar-header">
-            <i class="fas fa-tools"></i> <?php echo $_SESSION['username']; ?>
+            <i class="fas fa-tools"></i> Admin Panel
         </div>
-        <a href="../admin/index.php"><i class="fas fa-tachometer-alt fa-fw me-2"></i> Dashboard</a>
+        <a href="index.php"><i class="fas fa-tachometer-alt fa-fw me-2"></i> Dashboard</a>
         <a href="../ppdb/admin.php" class="active"><i class="fas fa-users-cog fa-fw me-2"></i> PPDB</a>
-        <a href="../admin/profil_sekolah.php"><i class="fas fa-school fa-fw me-2"></i> Kelola Profil Sekolah</a>
+        <a href="profil_sekolah.php"><i class="fas fa-school fa-fw me-2"></i> Kelola Profil Sekolah</a>
         <a href="../admin/gallery.php"><i class="fas fa-images fa-fw me-2"></i> Kelola Gallery</a>
-        <a href="../admin/kegiatan.php"><i class="fas fa-calendar-alt fa-fw me-2"></i> Kelola Kegiatan</a>
+        <a href="kegiatan.php"><i class="fas fa-calendar-alt fa-fw me-2"></i> Kelola Kegiatan</a>
         <div class="mt-auto"> 
             <hr class="mx-3" style="border-color: rgba(255, 255, 255, 0.2);">
             <a href="logout.php" class="bg-danger text-white">
@@ -179,7 +181,7 @@ $siswa = query("SELECT * FROM tbl_siswa");
         
         <nav class="navbar navbar-expand-lg bg-navbar shadow" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Data Calon Siswa SMK YP 17 Blitar</a>
+                <a class="navbar-brand" href="#">Data Calon Siswa SMK YP 17 Blitar (Login sebagai: <?php echo $_SESSION['username']; ?>)</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -266,3 +268,9 @@ $siswa = query("SELECT * FROM tbl_siswa");
 //     $conn->close();
 // }
 ?>
+
+
+
+
+
+
