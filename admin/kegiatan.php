@@ -92,11 +92,6 @@ $result_kegiatan = $conn->query($query_kegiatan);
         
         <a href="index.php"><i class="fas fa-tachometer-alt fa-fw me-2"></i> Dashboard</a>
         <a href="../ppdb/admin.php"><i class="fas fa-users-cog fa-fw me-2"></i> PPDB</a>
-        
-        <div class="sidebar-header mt-3" style="font-size: 1rem;">
-            Konten Website
-        </div>
-        
         <a href="profil_sekolah.php"><i class="fas fa-school fa-fw me-2"></i> Kelola Profil Sekolah</a>
         <a href="gallery.php"><i class="fas fa-images fa-fw me-2"></i> Kelola Gallery</a>
         <a href="kegiatan.php" class="active"><i class="fas fa-calendar-alt fa-fw me-2"></i> Kelola Kegiatan</a>

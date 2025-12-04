@@ -137,7 +137,7 @@ $result = $conn->query($query);
                     while ($row = $result->fetch_assoc()) {
                         echo "<li class='list-group-item d-flex justify-content-between align-items-center'>";
                         
-                        // Kolom Kiri: Gambar dan Keterangan
+                        // Kolom Kiri
                         echo "<div class='d-flex align-items-center'>";
                         echo "<img src='" . $row["image"] . "' class='gallery-image-preview img-thumbnail' alt='Thumbnail'>";
                         echo "<div>";
@@ -146,10 +146,16 @@ $result = $conn->query($query);
                         echo "</div>";
                         echo "</div>";
                         
-                        // Kolom Kanan: Tombol Hapus
-                        echo "<a href='hapusgallery.php?id={$row["id"]}' class='btn btn-danger btn-sm' onclick=\"return confirm('Yakin ingin menghapus gambar ini?')\">";
-                        echo "<i class='fas fa-trash-alt'></i>";
-                        echo "</a>";
+                        // Kolom Kanan: Tombol Aksi
+                        echo "<div>";
+                        // 1. Tombol Detail
+                        echo "<a href='detail_gallery.php?id={$row["id"]}' class='btn btn-info btn-sm me-1' title='Detail'><i class='fas fa-eye'></i></a>";
+                        // 2. Tombol Edit
+                        echo "<a href='edit_gallery.php?id={$row["id"]}' class='btn btn-warning btn-sm me-1' title='Edit'><i class='fas fa-edit'></i></a>";
+                        // 3. Tombol Hapus
+                        echo "<a href='hapusgallery.php?id={$row["id"]}' class='btn btn-danger btn-sm' title='Hapus' onclick=\"return confirm('Yakin ingin menghapus gambar ini?')\"><i class='fas fa-trash-alt'></i></a>";
+                        echo "</div>";
+
                         echo "</li>";
                     }
                 } else {
