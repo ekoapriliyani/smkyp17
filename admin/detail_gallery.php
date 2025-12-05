@@ -97,7 +97,6 @@ $conn->close();
                 <?php endif; ?>
                 
                 <h3 class="mt-3 mb-2"><?= htmlspecialchars($data_gallery['caption']); ?></h3>
-                <p class="text-muted">ID Database: <?= $data_gallery['id']; ?> | Lokasi File: <code><?= htmlspecialchars($data_gallery['image']); ?></code></p>
                 
             </div>
         </div>
