@@ -7,7 +7,7 @@ include "functions.php";
 if (isset($_POST["daftar"])) {
     if (tambah($_POST) > 0) {
         echo "<script>
-            alert('Data berhasil disimpan');
+            alert('Selamat Anda Berhasil Mendaftar !');
             document.location.href='index.php';
         </script>";
     }

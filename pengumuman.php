@@ -23,7 +23,7 @@ $siswa_diterima = query("SELECT nomor_registrasi, nama, asal, jurusan1 FROM tbl_
 <header class="header-custom text-center shadow-sm">
     <div class="container">
         <h1 class="mb-1"><i class="fas fa-bullhorn me-2"></i> Pengumuman Hasil Seleksi PPDB</h1>
-        <p class="lead">SMK YP 17 Tahun Ajaran XXXX/XXXX</p>
+        <p class="lead">SMK YP 17 Blitar - Tahun Ajaran 2025/2026</p>
     </div>
 </header>
 
