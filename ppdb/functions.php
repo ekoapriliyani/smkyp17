@@ -24,42 +24,46 @@ function query($query)
 function tambah($data)
 {
     global $conn;
-    // ... (Fungsi tambah() Anda yang sudah ada)
-    $nama = htmlspecialchars($data["nama"]);
-    $asal = htmlspecialchars($data["asal"]);
-    $tempat_lahir = htmlspecialchars($data["tempat_lahir"]);
-    $tgl_lahir = htmlspecialchars($data["tgl_lahir"]);
-    $alamat = htmlspecialchars($data["alamat"]);
-    $no_hp = htmlspecialchars($data["no_hp"]);
-    $email = htmlspecialchars($data["email"]);
-    $jurusan1 = htmlspecialchars($data["jurusan1"]);
-    $jurusan2 = htmlspecialchars($data["jurusan2"]);
-    $penerima_bantuan = htmlspecialchars($data["penerima_bantuan"]);
-    $nama_ayah = htmlspecialchars($data["nama_ayah"]);
-    $nama_ibu = htmlspecialchars($data["nama_ibu"]);
-    $tgl_daftar = date('Y-m-d H:i:s');
+
+    // 1. Sanitasi dan Keamanan (PENTING: Gunakan mysqli_real_escape_string)
+    // Pastikan semua input disanitasi sebelum dimasukkan ke database
+    $nama               = mysqli_real_escape_string($conn, $data["nama"]);
+    $asal               = mysqli_real_escape_string($conn, $data["asal"]);
+    $tempat_lahir       = mysqli_real_escape_string($conn, $data["tempat_lahir"]);
+    $tgl_lahir          = mysqli_real_escape_string($conn, $data["tgl_lahir"]);
+    $alamat             = mysqli_real_escape_string($conn, $data["alamat"]);
+    $no_hp              = mysqli_real_escape_string($conn, $data["no_hp"]);
+    $email              = mysqli_real_escape_string($conn, $data["email"]);
+    $jurusan1           = mysqli_real_escape_string($conn, $data["jurusan1"]);
+    $jurusan2           = mysqli_real_escape_string($conn, $data["jurusan2"]);
+    
+    // Pastikan nilai penerima_bantuan tidak kosong (gunakan operator ?? untuk default jika tidak ada)
+    $penerima_bantuan   = mysqli_real_escape_string($conn, $data["penerima_bantuan"] ?? '-'); 
+    
+    $nama_ayah          = mysqli_real_escape_string($conn, $data["nama_ayah"]);
+    $nama_ibu           = mysqli_real_escape_string($conn, $data["nama_ibu"]);
+    $tgl_daftar         = date('Y-m-d H:i:s');
 
 
-    // Mendapatkan nomor registrasi terakhir
+    // 2. Mendapatkan nomor registrasi terakhir
     $queryLastNumber = "SELECT nomor_registrasi FROM tbl_siswa ORDER BY id DESC LIMIT 1";
     $result = mysqli_query($conn, $queryLastNumber);
 
+    $newNumberFormatted = '0001'; // Default
     if ($result && mysqli_num_rows($result) > 0) {
         $row = mysqli_fetch_assoc($result);
         $lastNumber = $row['nomor_registrasi'];
         $lastDigits = substr($lastNumber, -4); 
         $newNumber = (int)$lastDigits + 1;
         $newNumberFormatted = str_pad($newNumber, 4, '0', STR_PAD_LEFT); 
-    } else {
-        // Jika belum ada nomor registrasi, mulai dari 0001
-        $newNumberFormatted = '0001';
     }
 
-    // Membuat nomor registrasi baru
+    // 3. Membuat nomor registrasi baru
     $dateCode = date('Ymd'); 
     $nomor_registrasi = "YP17" . $dateCode . $newNumberFormatted;
 
 
+    // 4. Query INSERT
     $query = "INSERT INTO tbl_siswa (
         nomor_registrasi, nama, asal, tempat_lahir, tgl_lahir, alamat, no_hp, email, 
         jurusan1, jurusan2, penerima_bantuan, nama_ayah, nama_ibu, tgl_daftar
@@ -79,8 +83,17 @@ function tambah($data)
         '$nama_ibu',
         '$tgl_daftar'
     )";
+    
     mysqli_query($conn, $query);
-    return mysqli_affected_rows($conn);
+
+    // 5. Cek keberhasilan dan kembalikan Nomor Registrasi
+    if (mysqli_affected_rows($conn) > 0) {
+        // Jika berhasil, kembalikan nomor registrasi
+        return $nomor_registrasi; 
+    } else {
+        // Jika gagal
+        return false; 
+    }
 }
 
 

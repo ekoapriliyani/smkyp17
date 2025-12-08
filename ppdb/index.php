@@ -1,13 +1,21 @@
 <?php
 include "header.html";
 include "functions.php";
-?>
 
-<?php
 if (isset($_POST["daftar"])) {
-    if (tambah($_POST) > 0) {
+    // Fungsi tambah() sekarang mengembalikan Nomor Registrasi (string) jika sukses, atau false jika gagal.
+    $nomor_reg_baru = tambah($_POST); 
+    
+    if ($nomor_reg_baru !== false) {
+        // REDIRECT KE HALAMAN BUKTI DENGAN NOMOR REGISTRASI
         echo "<script>
-            alert('Selamat Anda Berhasil Mendaftar !');
+            alert('Selamat Anda Berhasil Mendaftar! Nomor Registrasi Anda: " . $nomor_reg_baru . "');
+            document.location.href='bukti_pendaftaran.php?no_reg=" . $nomor_reg_baru . "';
+        </script>";
+        exit;
+    } else {
+        echo "<script>
+            alert('Pendaftaran gagal. Silakan coba lagi.');
             document.location.href='index.php';
         </script>";
     }
