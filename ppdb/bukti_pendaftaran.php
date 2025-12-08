@@ -4,7 +4,6 @@ include "functions.php";
 
 // 1. Ambil Nomor Registrasi dari URL
 if (!isset($_GET['no_reg']) || empty($_GET['no_reg'])) {
-    // Jika tidak ada nomor registrasi, kembalikan ke halaman daftar
     header("Location: index.php");
     exit;
 }
@@ -12,26 +11,23 @@ if (!isset($_GET['no_reg']) || empty($_GET['no_reg'])) {
 $nomor_registrasi = $_GET['no_reg'];
 
 // 2. Ambil data siswa berdasarkan Nomor Registrasi
-// Sanitasi input sebelum digunakan dalam query (pencegahan SQL Injection)
 $nomor_registrasi_safe = mysqli_real_escape_string($conn, $nomor_registrasi);
-
 $query_siswa = "SELECT * FROM tbl_siswa WHERE nomor_registrasi = '{$nomor_registrasi_safe}'";
 $siswa = query($query_siswa);
 
 if (empty($siswa)) {
     echo "
         <div class='container mt-5'>
-            <div class='alert alert-danger'>Data pendaftaran tidak ditemukan atau sudah diverifikasi.</div>
+            <div class='alert alert-danger'>Data pendaftaran tidak ditemukan.</div>
             <a href='index.php' class='btn btn-primary'>Kembali ke Pendaftaran</a>
         </div>";
-    include "footer.html"; // Asumsi Anda punya footer.html
+    include "footer.html";
     exit;
 }
 
-// Data ditemukan, ambil baris pertama
 $data_siswa = $siswa[0];
 
-// Fungsi untuk konversi nama jurusan (opsional, untuk tampilan lebih bagus)
+// Fungsi untuk konversi nama jurusan
 function get_jurusan_name($kode) {
     $jurusan_map = [
         'TKR' => 'Teknik Kendaraan Ringan',
@@ -45,71 +41,112 @@ function get_jurusan_name($kode) {
 }
 ?>
 
-<div class="container mt-4">
-    <img src="kop.png" alt="kop" width="100%">
-    <h2 class="text-center mt-3 text-primary">Bukti Pendaftaran Calon Siswa</h2>
-    <p class="text-center lead">Harap simpan atau cetak bukti ini sebagai dokumen pendaftaran Anda.</p>
-    <hr>
-    
-    <div class="card shadow-sm mb-4">
-        <div class="card-header bg-primary text-white">
-            <h5 class="mb-0"><i class="fas fa-id-card me-2"></i> Data Pendaftaran Anda</h5>
-        </div>
-        <div class="card-body">
-            <div class="row">
-                <div class="col-md-6">
-                    <table class="table table-borderless table-sm">
-                        <tr><th>No. Registrasi</th><td>:</td><td><strong><?= htmlspecialchars($data_siswa['nomor_registrasi']); ?></strong></td></tr>
-                        <tr><th>Nama Lengkap</th><td>:</td><td><?= htmlspecialchars($data_siswa['nama']); ?></td></tr>
-                        <tr><th>Asal Sekolah</th><td>:</td><td><?= htmlspecialchars($data_siswa['asal']); ?></td></tr>
-                        <tr><th>Tempat, Tgl Lahir</th><td>:</td><td><?= htmlspecialchars($data_siswa['tempat_lahir'] . ', ' . $data_siswa['tgl_lahir']); ?></td></tr>
-                        <tr><th>Alamat</th><td>:</td><td><?= htmlspecialchars($data_siswa['alamat']); ?></td></tr>
-                        <tr><th>No. HP/WA</th><td>:</td><td><?= htmlspecialchars($data_siswa['no_hp']); ?></td></tr>
-                    </table>
-                </div>
-                <div class="col-md-6">
-                    <table class="table table-borderless table-sm">
-                        <tr><th>Jurusan Pilihan 1</th><td>:</td><td><?= get_jurusan_name(htmlspecialchars($data_siswa['jurusan1'])); ?></td></tr>
-                        <tr><th>Jurusan Pilihan 2</th><td>:</td><td><?= get_jurusan_name(htmlspecialchars($data_siswa['jurusan2'])); ?></td></tr>
-                        <tr><th>Penerima Bantuan</th><td>:</td><td><?= htmlspecialchars($data_siswa['penerima_bantuan']); ?></td></tr>
-                        <tr><th>Nama Ayah</th><td>:</td><td><?= htmlspecialchars($data_siswa['nama_ayah']); ?></td></tr>
-                        <tr><th>Nama Ibu</th><td>:</td><td><?= htmlspecialchars($data_siswa['nama_ibu']); ?></td></tr>
-                        <tr><th>Tgl Daftar</th><td>:</td><td><?= htmlspecialchars($data_siswa['tgl_daftar']); ?></td></tr>
-                    </table>
-                </div>
-            </div>
-        </div>
-    </div>
-    
-    <div class="text-center mb-5 print-hide">
-        <button onclick="window.print()" class="btn btn-lg btn-success me-3">
-            <i class="fas fa-print me-2"></i> Cetak / Unduh Bukti Pendaftaran
-        </button>
-        <a href="index.php" class="btn btn-lg btn-secondary">
-            <i class="fas fa-home me-2"></i> Kembali ke Beranda
-        </a>
-    </div>
-
-    <img src="footer_ppdb.png" alt="kop" width="100%">
-</div>
-
 <style>
-/* CSS untuk menyembunyikan elemen saat dicetak */
-@media print {
-    .print-hide, .navbar, .container:first-child > img:first-child { /* Asumsi navbar perlu disembunyikan */
-        display: none !important;
-    }
-    body { 
-        padding-top: 0 !important; /* Hapus padding body jika ada */
-        margin: 0 !important;
-    }
-    .container {
-        width: 100% !important;
-    }
+/* Style khusus untuk PDF agar tata letak tidak berantakan */
+.pdf-data-table th {
+    width: 30%; /* Berikan lebar tetap pada kolom judul */
+    padding-right: 10px;
+}
+/* Menghapus margin dan padding default Bootstrap agar PDF lebih rapi */
+#pdf-content {
+    padding: 20px;
+    margin: auto;
+    max-width: 800px;
+}
+.pdf-title {
+    color: #005959; /* Warna teal yang Anda gunakan */
+    font-size: 1.5rem;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.pdf-card-header {
+    background-color: #007bff !important; /* Warna header biru */
+    color: white !important;
+    padding: 8px 15px;
+    font-weight: bold;
+}
+.tanda-tangan {
+    margin-top: 50px;
+    padding-left: 60%; /* Geser ke kanan untuk tanda tangan */
+    text-align: center;
 }
 </style>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+<div class="container mt-4" id="pdf-content"> 
+    <h3 class="text-center pdf-title">Bukti Pendaftaran Calon Siswa</h3>
+    <p class="text-center lead">Harap simpan bukti ini untuk kelengkapan administrasi.</p>
+    <hr>
+    
+    <div class="card shadow-sm mb-4 border-0">
+        <div class="pdf-card-header">
+            <i class="fas fa-id-card me-2"></i> Data Pendaftaran Anda
+        </div>
+        <div class="card-body">
+            <table class="table table-borderless table-sm pdf-data-table">
+                <tbody>
+                    <tr><th>No. Registrasi</th><td>:</td><td><strong><?= htmlspecialchars($data_siswa['nomor_registrasi']); ?></strong></td></tr>
+                    <tr><th>Nama Lengkap</th><td>:</td><td><?= htmlspecialchars($data_siswa['nama']); ?></td></tr>
+                    <tr><th>Asal Sekolah</th><td>:</td><td><?= htmlspecialchars($data_siswa['asal']); ?></td></tr>
+                    <tr><th>Tempat, Tgl Lahir</th><td>:</td><td><?= htmlspecialchars($data_siswa['tempat_lahir'] . ', ' . $data_siswa['tgl_lahir']); ?></td></tr>
+                    <tr><th>Alamat</th><td>:</td><td><?= htmlspecialchars($data_siswa['alamat']); ?></td></tr>
+                    <tr><th>No. HP/WA</th><td>:</td><td><?= htmlspecialchars($data_siswa['no_hp']); ?></td></tr>
+                    <tr><th>Email</th><td>:</td><td><?= htmlspecialchars($data_siswa['email']); ?></td></tr>
+                    
+                    <tr><td colspan="3"><hr></td></tr>
+
+                    <tr><th>Jurusan Pilihan 1</th><td>:</td><td><?= get_jurusan_name(htmlspecialchars($data_siswa['jurusan1'])); ?></td></tr>
+                    <tr><th>Jurusan Pilihan 2</th><td>:</td><td><?= get_jurusan_name(htmlspecialchars($data_siswa['jurusan2'])); ?></td></tr>
+                 </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class="container text-center mb-5 mt-4 download-button-area">
+    <button id="download-btn" class="btn btn-lg btn-success me-3">
+        <i class="fas fa-file-pdf me-2"></i> Unduh Bukti Pendaftaran (PDF)
+    </button>
+    <a href="index.php" class="btn btn-lg btn-secondary">
+        <i class="fas fa-home me-2"></i> Kembali ke Beranda
+    </a>
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+
+<script>
+document.getElementById('download-btn').addEventListener('click', function () {
+    const element = document.getElementById('pdf-content');
+    const filename = 'Bukti_Pendaftaran_<?= htmlspecialchars($data_siswa['nomor_registrasi']); ?>.pdf';
+    
+    // Konfigurasi untuk PDF
+    const opt = {
+        // Mengurangi margin agar konten lebih besar di A4
+        margin:       [5, 5, 5, 5], 
+        filename:     filename,
+        image:        { type: 'jpeg', quality: 0.98 },
+        html2canvas:  { 
+            scale: 2, 
+            logging: false, 
+            dpi: 192, 
+            letterRendering: true 
+        },
+        // Mengatur format A4 dan orientasi portrait
+        jsPDF:        { unit: 'mm', format: 'a4', orientation: 'portrait' } 
+    };
+
+    // Panggil fungsi konversi dan simpan
+    html2pdf().set(opt).from(element).save();
+    
+    // Sembunyikan tombol download selama proses konversi (opsional)
+    document.querySelector('.download-button-area').style.display = 'none';
+    
+    // Tampilkan kembali setelah 5 detik
+    setTimeout(function() {
+        document.querySelector('.download-button-area').style.display = 'block';
+    }, 5000);
+});
+</script>
+
 <?php 
 // include "footer.html"; 
 ?>
