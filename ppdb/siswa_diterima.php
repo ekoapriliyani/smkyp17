@@ -201,6 +201,13 @@ $siswa = query("SELECT * FROM tbl_siswa_verifikasi");
         </nav>
 
         <div class="container-fluid content-wrapper">  
+            <div class="row mb-3">
+            <div class="col-12 d-flex justify-content-end">
+                <a href="export_excel_diterima.php" class="btn btn-success">
+                    <i class="fas fa-file-excel me-1"></i> Export to Excel
+                </a>
+            </div>
+        </div>
             <div class="container-fluid mt-4"> 
                 <div class="table-responsive">
                     <table class="table table-striped" id="example">
