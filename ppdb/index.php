@@ -29,10 +29,10 @@ if (isset($_POST["daftar"])) {
     <div class="alert alert-info text-dark shadow-sm" role="alert">
         <h4 class="alert-heading"><i class="fas fa-info-circle me-2"></i> Petunjuk Singkat Pendaftaran!</h4>
         <p class="mb-2">
-            Harap isi semua kolom dengan **data yang benar dan valid**. Data yang sudah disimpan tidak dapat diubah tanpa persetujuan panitia.
+            Harap isi semua kolom dengan <b>data yang benar dan valid.</b> Data yang sudah disimpan tidak dapat diubah tanpa persetujuan panitia.
         </p>
         <p class="mb-0">
-            Pastikan Anda memilih **Konsentrasi Keahlian (Jurusan)** yang sesuai. Setelah selesai, Anda akan diarahkan untuk mengunduh bukti pendaftaran.
+            Pastikan Anda memilih <b>Konsentrasi Keahlian (Jurusan)</b> yang sesuai. Setelah selesai, Anda akan diarahkan untuk mengunduh bukti pendaftaran.
         </p>
     </div>
 

@@ -143,7 +143,7 @@ if (isset($_SESSION['username'])) {
         </div>
         
         <button type="submit" name="submit" class="btn btn-custom text-white w-100 py-2">
-            <i class="fas fa-sign-in-alt me-2"></i> **LOGIN**
+            <i class="fas fa-sign-in-alt me-2"></i> LOGIN
         </button>
     </form>
     
