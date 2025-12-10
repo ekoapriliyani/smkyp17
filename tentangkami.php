@@ -25,16 +25,15 @@ if (empty($profil)) {
 ?>
 
 <style>
-    /* Styling untuk membuat tabel kontak lebih elegan */
     .contact-info-table th {
         width: 150px;
-        color: #007bff; /* Warna biru untuk label */
+        color: #007bff; 
     }
     .contact-info-table td {
         font-weight: 500;
     }
     .card-header-custom {
-        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%); /* Gradasi biru gelap */
+        background: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
         color: white;
         border-radius: 0.3rem 0.3rem 0 0 !important;
         padding: 1rem 1.25rem;

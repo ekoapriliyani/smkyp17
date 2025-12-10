@@ -78,7 +78,6 @@ $siswa = query("SELECT * FROM tbl_siswa");
     <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.bootstrap5.css">
 
     <style>
-        /* --- STYLE PERBAIKAN --- */
         :root {
             --teal-dark: #005959;
             --sidebar-width: 250px;
@@ -92,7 +91,7 @@ $siswa = query("SELECT * FROM tbl_siswa");
             display: flex; /* Mempertahankan Flexbox untuk Sidebar dan Konten */
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4; /* Pindahkan background-color ke sini */
+            background-color: #f4f4f4; 
         }
         
         /* SIDEBAR */
@@ -258,11 +257,3 @@ $siswa = query("SELECT * FROM tbl_siswa");
     </script>
 </body>
 </html>
-
-<?php 
-// Tutup koneksi setelah semua data selesai diolah
-// Pastikan $conn ada di scope ini jika Anda menggunakannya
-// if (isset($conn)) {
-//     $conn->close();
-// }
-?>

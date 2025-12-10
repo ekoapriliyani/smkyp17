@@ -42,32 +42,31 @@ function get_jurusan_name($kode) {
 ?>
 
 <style>
-/* Style khusus untuk PDF agar tata letak tidak berantakan */
 .pdf-data-table th {
-    width: 30%; /* Berikan lebar tetap pada kolom judul */
+    width: 30%; 
     padding-right: 10px;
 }
-/* Menghapus margin dan padding default Bootstrap agar PDF lebih rapi */
+
 #pdf-content {
     padding: 20px;
     margin: auto;
     max-width: 800px;
 }
 .pdf-title {
-    color: #005959; /* Warna teal yang Anda gunakan */
+    color: #005959; 
     font-size: 1.5rem;
     margin-top: 10px;
     margin-bottom: 5px;
 }
 .pdf-card-header {
-    background-color: #007bff !important; /* Warna header biru */
+    background-color: #007bff !important;
     color: white !important;
     padding: 8px 15px;
     font-weight: bold;
 }
 .tanda-tangan {
     margin-top: 50px;
-    padding-left: 60%; /* Geser ke kanan untuk tanda tangan */
+    padding-left: 60%; 
     text-align: center;
 }
 </style>
@@ -148,5 +147,5 @@ document.getElementById('download-btn').addEventListener('click', function () {
 </script>
 
 <?php 
-// include "footer.html"; 
+include "footer.html"; 
 ?>

@@ -1,7 +1,6 @@
 <?php 
-// Asumsi file ini berada di root PPDB (SMKYP17/kegiatan.php)
 include "header.html"; 
-include "ppdb/functions.php"; // Diperlukan untuk koneksi database dan fungsi query
+include "ppdb/functions.php"; 
 ?>
 <?php include "navbar.html" ?>
 
@@ -24,14 +23,9 @@ include "ppdb/functions.php"; // Diperlukan untuk koneksi database dan fungsi qu
         echo '<div class="row">';
         
         foreach ($kegiatan as $row) {
-            
-            // ASUMSI BARU: Kolom 'gambar' sudah berisi path relatif LENGKAP dari folder 'admin'
-            // Contoh: 'uploads/kegiatan/namafile.jpg'
-            
+
             $gambar_path_db = $row['gambar'];
             
-            // Path URL yang digunakan di tag <img> (Relatif dari kegiatan.php)
-            // Karena kegiatan.php dan folder admin sejajar, kita tambahkan prefix 'admin/'
             $image_path_url  = 'admin/' . $gambar_path_db; 
             
             // Path Absolut untuk pengecekan file_exists() (Relatif dari root server PHP)
@@ -71,7 +65,7 @@ include "ppdb/functions.php"; // Diperlukan untuk koneksi database dan fungsi qu
             ';
         }
 
-        echo '</div>'; // Tutup row
+        echo '</div>'; 
     }
     ?>
 </div>
